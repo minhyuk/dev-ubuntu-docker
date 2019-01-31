@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 MAINTAINER Minhyuk Kwon<minhyuk@suresofttech.com>
 
 RUN apt-get update
