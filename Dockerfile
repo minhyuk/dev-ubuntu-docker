@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:14.04
 MAINTAINER Minhyuk Kwon<minhyuk@suresofttech.com>
 
 RUN apt-get update
@@ -10,5 +10,7 @@ RUN pip3 install requests
 RUN pip3 install colorama
 RUN apt-get install -y git
 RUN apt-get install -y dh-autoreconf
+RUN apt-get install -y cmake
+RUN apt-get install -y vim
 
 CMD ["bash"]
