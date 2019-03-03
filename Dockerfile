@@ -12,5 +12,6 @@ RUN apt-get install -y git
 RUN apt-get install -y dh-autoreconf
 RUN apt-get install -y cmake
 RUN apt-get install -y vim
+RUN apt-get install -y gcc-4.9
 
 CMD ["bash"]
