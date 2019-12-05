@@ -10,6 +10,7 @@ RUN pip3 install colorama
 RUN pip3 install wcmatch
 RUN pip3 install psutil
 RUN pip3 install distro
+RUN pip3 install hjson
 RUN apt-get install -y cmake
 RUN apt-get install -y git
 RUN apt-get install -y dh-autoreconf
